@@ -1,7 +1,6 @@
 from transformers import BertModel, BertTokenizer
 import torch
 import torch.nn as nn
-
 import os
 from sklearn.model_selection import ShuffleSplit
 import numpy as np
