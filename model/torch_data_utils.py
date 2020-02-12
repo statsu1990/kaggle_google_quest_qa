@@ -1,5 +1,6 @@
 import torch
 
+
 class QADataset(torch.utils.data.Dataset):
     def __init__(self, ids, masks, segments, labels=None):
         self.ids = ids
